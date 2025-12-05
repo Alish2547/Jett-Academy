@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            max-width: 30%;
+        }
+        td{
+            max-width: 20%;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <form action="">
+    <table border="1px">
+        <tbody>
+            <tr>
+                <th><Label for="Fname">First Name</Label></th>
+                <td><input type="text" id="Fname"></td>
+            </tr>
+            <tr>
+                <th><label for="Lname">Last Name</label></th>
+                <td><input type="text" id="Lname"></td>
+            </tr>
+            <tr>
+                <th><Label for="email">Email</Label></th>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <th><label for="password">Password</label></th>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <!-- chat gptden birdaz destek almisham amma yenede nese sehfdir  -->
+                <th><Label for="confirmPassword">Re-Enter Password</Label></th>
+                <td><input type="password" id="confirmPassword"></td>
+            </tr>
+            <tr>
+                <th rowspan="2"><Label for="gender">Gender </Label></th>
+                <td>
+                    <input type="radio" name="gender" id="Male">
+                    <label for="Male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="gender" id="Famele">
+                    <label for="Famele">Famele</label>
+                </td>
+            </tr>
+            <tr>
+                <th><Label for="age">Age</Label></th>
+                <td>
+                    <input type="text" id="age">
+                </td>
+            </tr>
+            <tr>
+                <th><Label for="Phonnummer"></Label></th>
+                <td><input type="tel" name="" id="Phonnummer"></td>
+            </tr>
+            <tr>
+                <th><Label for="address">Address</Label></th>
+                <td>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write here address....."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th><Label for="state">State</Label></th>
+                <td><input type="text" id="state"></td>
+            </tr>
+            <tr>
+                <th><label for="country"></label></th>
+                <td><Select placeholder="Choose your country" style="min-width: 90%;">
+                    <option value="country">Azerbaijan</option>
+                    <option value="country">Turkish</option>
+                    <option value="country">Italian</option>
+                    <option value="country">Rusiian</option>
+                </Select></td>
+            </tr>
+            <tr>
+                <th><Label for="">Language Known</Label></th>
+                <td>
+                    <input type="checkbox" name="Language" id="English">
+                    <label for="English">English</label>
+                    <input type="checkbox" name="Language" id="Kannada">
+                    <label for="Kannada">Kannada</label>
+                    <input type="checkbox" name="Language" id="Hindi">
+                    <label for="Hindi">Hindi</label>
+                    <input type="checkbox" name="Language" id="Telugu">
+                    <label for="Telugu">Telugu</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="height: 50px;"><input type="checkbox" name="not" id="not">
+                <label for="not">Hereby I declare all the given details are true</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Login in to  <a href="http://google.com">Google</a> website</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button type="submit">Register</button>
+    </form>
+</body>
+
+</html>
